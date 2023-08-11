@@ -1,3 +1,5 @@
+//Write a C++ program to define a function outside the class using scope resolution operator.
+
 #include<iostream>
 #include<string>
 using namespace std;
@@ -32,6 +34,8 @@ void info :: print()
 
 int main()
 {
+	cout<<"Purohit Akruti K."<<endl;
+	cout<<"220130318033"<<endl;
 	info i1,i2;
 	
 	i1.getdata();
