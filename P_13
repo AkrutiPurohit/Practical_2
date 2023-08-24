@@ -1,0 +1,22 @@
+//Write a C++ program to demonstrate use of constant argument
+
+#include<iostream>
+using namespace std;
+
+float sphere(float r,float pi=3.14,float c = 1.3333)
+{
+	return c*pi*r*r*r;
+}
+
+int main()
+{
+	cout<<"Purohit Akruti K."<<endl;
+	cout<<"220130318033"<<endl;
+	
+	float r;
+	cout<<"Enter the raduis:";
+	cin>>r;
+	
+	cout<<"The volume of the sphere is:"<<sphere(r)<<endl;
+	return 0;
+}
