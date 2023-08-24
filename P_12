@@ -1,0 +1,29 @@
+//Write a C++ program to demonstrate use of default arguments
+
+#include<iostream>
+using namespace std;
+
+float tri(float ,float ,float c = 0.5);
+
+
+int main()
+{
+	cout<<"Purohit Akruti K."<<endl;
+	cout<<"220130318033"<<endl;
+	
+	float b,h;
+	cout<<"Enter the base of triangle:";
+	cin>>b;
+	
+	cout<<"Enter the height of triangle:";
+	cin>>h;
+	
+	cout<<"The area of the triangle is:"<<tri(b,h)<<endl;
+	
+	return 0;
+}
+
+float tri(float b,float h,float c)
+{
+	return b*h*c;
+}
