@@ -1,0 +1,30 @@
+//Write a C++ program to demonstrate use of return by reference.
+
+#include<iostream>
+using namespace std;
+
+int a = 41;
+int b = ;
+int &swap()
+{
+	return a;
+}
+
+int &swap2()
+{
+	return b;
+}
+int main()
+{
+	int a = 15,b = 21,ans=0;
+	cout<<"Purohit Akruti K."<<endl;
+	cout<<"220130318033"<<endl;
+	
+	cout<<"The value of A before swaping:"<<a<<endl;
+	cout<<"The value of B before swaping:"<<b<<endl;
+
+	cout<<"The value of A after swaping:"<<swap()<<endl;
+	cout<<"The value of B after swaping:"<<swap2()<<endl;
+	
+	return 0;
+}
