@@ -1,0 +1,40 @@
+#include<iostream>
+
+using namespace std;
+
+float area(float a)
+{
+    return a*a;
+}
+
+float area(float l,float b)
+{
+    return l*b;
+}
+
+float area(float a,float b,float h)
+{
+    return ((a+b)*h)/2;
+}
+
+int main()
+{
+    cout<<"Purohit Akruti K."<<endl;
+    cout<<"220130318033"<<endl;
+    
+    float a,b,h;
+    
+    cout<<"Enter one side of any shape:";
+    cin>>a;
+    
+    cout<<"Enter second side of any shape:";
+    cin>>b;
+    
+    cout<<"Enter the height of any shape:";
+    cin>>h;
+    
+    cout<<"The area of square is:"<<area(a)<<endl;
+    cout<<"The area of rectangle is:"<<area(a,b)<<endl;
+    cout<<"The area of trapezium is:"<<area(a,b,h)<<endl;
+    return 0;
+}
