@@ -1,0 +1,22 @@
+#include<iostream>
+
+using namespace std;
+
+inline int square(int a)
+{
+    return a*a;
+}
+
+int main()
+{
+    cout<<"Purohit Akruti K."<<endl;
+    cout<<"220130318033"<<endl;
+    int n;
+    cout<<"Enter the number:";
+    cin>>n;
+    for(int i = 1;i <= n;i++)
+    {
+        cout<<"The square of "<<i<<"="<<square(i)<<endl;
+    }
+    return 0;
+}
